@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget{
         title:"MY APP",
         home:Scaffold(
         appBar: AppBar(
-        title: Text("MY First Screen"),
+        title: Text("MY First App"),
     ),
     body:FirstScreen()
         ),

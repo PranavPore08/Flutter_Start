@@ -1,4 +1,4 @@
-# hello
+# This is First Application used for beginners.
 
 A new Flutter project.
 

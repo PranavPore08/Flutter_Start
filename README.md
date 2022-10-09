@@ -1,4 +1,4 @@
-# This is First Mobile Application of Flutter which is helpful for beginners.
+# This is First Mobile Application of Flutter
 
 A new Flutter project.
 

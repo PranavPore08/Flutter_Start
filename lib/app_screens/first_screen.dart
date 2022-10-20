@@ -11,7 +11,7 @@ class FirstScreen extends StatelessWidget {
       color: Colors.amber,
       child: Center(
         child: Text(
-          "Your No. is ${yourluckyno()}",
+          'Your No. is ${yourluckyno()}',
           textDirection: TextDirection.ltr,
           style: const TextStyle(
             color: Colors.white,

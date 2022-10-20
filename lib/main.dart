@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: "MY APP",
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("MY First App"),
+          title: const Text('Flutter Start'),
         ),
         body: const FirstScreen(),
       ),

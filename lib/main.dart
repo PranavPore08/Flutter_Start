@@ -1,20 +1,22 @@
 import "package:flutter/material.dart";
 import './app_screens/first_screen.dart';
-void main()=>runApp(new MyApp());
 
+void main() => runApp(const MyApp());
 
-class MyApp extends StatelessWidget{
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-        title:"MY APP",
-        home:Scaffold(
+      title: "MY APP",
+      home: Scaffold(
         appBar: AppBar(
-        title: Text("MY First App"),
-    ),
-    body:FirstScreen()
+          title: const Text("MY First App"),
         ),
+        body: const FirstScreen(),
+      ),
     );
   }
 }
